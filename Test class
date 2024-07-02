@@ -1,0 +1,11 @@
+
+public class Test {
+public static void main(String[] args) {
+	Empolyee e= new Empolyee("Cliva",23,5500);
+	e.displayInfo();
+	
+	e.setAge(24);
+	e.setSalary(65000);
+	e.displayInfo();
+}
+}
