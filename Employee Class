@@ -1,0 +1,51 @@
+
+public class Empolyee {
+		int employeeid;
+		String name;
+		int age;
+		double salary;
+		static int count=1000; 
+		
+	public 	Empolyee(String name,int age, double salary){
+			this.employeeid=count++;
+			this.name=name;
+			setAge(age);
+			setSalary(salary);
+		}
+		public void setEmployeeid(int employeeid) {
+		    this.employeeid = employeeid;
+		}
+		
+		public int getEmployeeid() {
+		    return this.employeeid;
+		}
+		
+		public void setName(String name) {
+		    this.name = name;
+		}
+		
+		public String getName() {
+		    return this.name;
+		}
+		
+		public void setAge(int age) {
+		    this.age = age;
+		}
+		
+		public int getAge() {
+		    return this.age;
+		}
+		
+		public void setSalary(double salary) {
+		    this.salary = salary;
+		}
+		
+		public double getSalary() {
+		    return this.salary;
+		}
+		
+		void displayInfo() {
+			System.out.println("Empolyee Details") ;
+			System.out.println(this.employeeid+" "+ this.name +" "+ this.age + " "+ this.salary);
+		}
+}
