@@ -42,8 +42,12 @@ public class Empolyee {
 		}
 		
 		public void setSalary(double salary) {
-		    this.salary = salary;
-		}
+		   if (salary >= 0) {
+		            this.salary = salary;
+		        } else {
+		            System.out.println("Invalid salary. Salary should be non-negative.");
+		        }
+		    }
 		
 		public double getSalary() {
 		    return this.salary;
