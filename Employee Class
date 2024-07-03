@@ -12,17 +12,17 @@ public class Empolyee {
 			setAge(age);
 			setSalary(salary);
 		}
-		public void setEmployeeid(int employeeid) {
-		    this.employeeid = employeeid;
-		}
+		//public void setEmployeeid(int employeeid) {
+		  //  this.employeeid = employeeid;
+		//}
 		
 		public int getEmployeeid() {
 		    return this.employeeid;
 		}
 		
-		public void setName(String name) {
-		    this.name = name;
-		}
+		//public void setName(String name) {
+		  //  this.name = name;
+		//}
 		
 		public String getName() {
 		    return this.name;
